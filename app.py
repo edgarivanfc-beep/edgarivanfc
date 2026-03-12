@@ -172,10 +172,6 @@ if __name__ == "__main__":
     app.run(debug=False, host="0.0.0.0", port=8050)
 ```
 
-**Paso 2 — Actualizar `requirements.txt`** (mismo proceso, reemplaza con esto):
-```
-dash==2.18.2
-dash-bootstrap-components==1.6.0
-plotly==5.24.1
+
 pandas==2.2.3
 gunicorn==21.2.0
